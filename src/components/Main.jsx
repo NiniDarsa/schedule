@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import Headline from "./Headline";
 import Content from "./Content";
-import SideBar from "./Sidebar";
+import SideBar from "./SideBar";
 import UseLocalStorage from "./UseLocalStorage";
 import { Stylediv } from "../styles/style";
 import { initial } from "./info";
