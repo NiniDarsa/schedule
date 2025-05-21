@@ -37,6 +37,7 @@ const Content=({list,setList,open})=>{
     //   }
     // }),[select, list])
     
+    
     return(
         <StyledMain>
           {sortedList.length>0?<>
