@@ -59,6 +59,7 @@ const Stdiv=styled.div`
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
+   
   
    .error{
     color: red;
@@ -72,6 +73,7 @@ const Stdiv=styled.div`
    .mainBtn{
     width:100%;
     background-color: #5d3b20e9;
+    color: white;
    }
    input[type="text"]{
     width: 100%;
@@ -89,11 +91,13 @@ const Stdiv=styled.div`
     justify-content: end;
     align-items: center;
     width: 90%;
+   
    }
    .btn{
     width:100%;
     height: 2rem;
     background-color: #5d3b20c6;
+     color: white;
     cursor: pointer;
     border-radius: .2rem;
     margin-bottom: .2rem;
