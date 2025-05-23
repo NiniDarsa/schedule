@@ -59,6 +59,10 @@ padding: 1rem 0;
 border-right: 1px solid #c0c0c0b0;
 text-align: center;
 position: relative;
+@media (max-width: 900px) {
+ grid-column: 1/7;
+ grid-row:2
+}
 .text{
     position: absolute;
     top:50%;

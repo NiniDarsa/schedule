@@ -8,4 +8,10 @@ export const Stylediv=styled.div`
   border-radius: .4rem;
   display: grid;
   grid: 3.4rem / auto auto auto auto auto auto ;
+  @media (max-width: 900px) {
+width: 80%;
+height: 80%;
+
+}
+ 
 `;

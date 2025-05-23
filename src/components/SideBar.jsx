@@ -59,7 +59,10 @@ const Stdiv=styled.div`
    flex-direction: column;
    align-items: center;
    justify-content: space-between;
-   
+   @media (max-width: 900px) {
+ grid-column: 1/7;
+ grid-row:3
+}
   
    .error{
     color: red;

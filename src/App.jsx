@@ -4,10 +4,11 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import GlobalStyle from "./styles/GlobalStyles"
 import ListForEach from "./components/ListForEach"
+import styled from "styled-components"
 
 function App() {
   return (
-    <>
+    <StApp>
       <GlobalStyle/> 
       <Header/>
      
@@ -17,8 +18,16 @@ function App() {
       </Routes>
      
       <Footer/>
-    </>
+    </StApp>
   )
 }
 
 export default App
+const StApp=styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`

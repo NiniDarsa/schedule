@@ -22,4 +22,5 @@ const Main=()=>{
 }
 export default Main
 
-const Stdiv=styled(Stylediv)``;
+const Stdiv=styled(Stylediv)`
+`;
