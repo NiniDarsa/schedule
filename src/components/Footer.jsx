@@ -3,7 +3,7 @@ import styled from "styled-components"
 const Footer=()=>{
   return(
     <Stfooter>
-        <h4>&copy; copyright by Nino Darsa</h4>
+        <p>&copy; copyright by Nino Darsa</p>
     </Stfooter>
   )
 }
