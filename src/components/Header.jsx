@@ -12,7 +12,7 @@ export default Header
 const StHeader = styled.div`
   text-transform: uppercase;
   font-size: clamp(1.5rem, 5vw, 3rem);
-  color: #dca47c55;
+  color: #dca47caf;
   letter-spacing: clamp(0.2rem, 2vw, 2.4rem); /* Responsive letter-spacing */
 `;
 

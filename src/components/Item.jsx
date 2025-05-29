@@ -27,8 +27,8 @@ const Item=({item,list,setList,open})=>{
        }
         </div>
         <div className="btnContainer">
-        {!edit?<button onClick={()=>setEdit(!edit)}><FiEdit3 /></button>:<button onClick={()=>handleEdit(item,editName,list,setList)}><MdOutlineDone /></button>}
-        <button onClick={()=>handleDelete(item,list,setList)}><RxCross2 /></button>
+        {!edit?<button  id="edit" aria-label="edit-btn" onClick={()=>setEdit(!edit)}><FiEdit3 /></button>:<button onClick={()=>handleEdit(item,editName,list,setList)}><MdOutlineDone /></button>}
+        <button  id="delete" aria-label="delete-btn" onClick={()=>handleDelete(item,list,setList)}><RxCross2 /></button>
         </div>
     </StyledItem>
   )

@@ -33,7 +33,7 @@ const SideBar=({list, setList,initial})=>{
     return(
         <Stdiv>
             <form onSubmit={(e)=>handleSubmit(e,value,handleAddItem,list,setList,names)} className="topContainer">
-                <h4>Add an Item</h4>
+                <p><b>Add an Item</b></p>
                 <input autoFocus type="text" value={value} onChange={handleChange} placeholder="enter text..."/>
                 {error&&<div className="error">{error}</div>}
                 <button className="btn mainBtn">Add to List</button>
